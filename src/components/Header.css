@@ -1,0 +1,44 @@
+
+.header {
+  box-shadow: 0px -1px 6px var(--shadow-c);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 10px;
+}
+
+.left-sec {
+  display: flex;
+  align-items: center;
+}
+.left-sec .web-icon {
+  margin-left: 20px;
+  font-size: 50px;
+  text-decoration: none;
+}
+.left-sec p {
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.right-sec {
+  display: flex;
+  align-items: center;
+}
+.right-sec p {
+  margin: 0 40px 0 20px;
+  font-size: 20px;
+}
+.right-sec .cartSum {
+  background-color: var(--bg-c);
+  text-decoration: none;
+  border: none;
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 20px;
+  color: var(--text-c);
+  cursor: pointer;
+}
